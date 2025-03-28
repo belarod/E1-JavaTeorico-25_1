@@ -148,7 +148,7 @@ public class Main {
         Gato meuGato = new Gato();
         meuGato.nome = "Larry";
         meuGato.fazerSom(); // Método herdado da classe Animal
-        meuGato.latir();    // Método específico da classe Gato
+        meuGato.miar();    // Método específico da classe Gato
     }
 }
 ```
