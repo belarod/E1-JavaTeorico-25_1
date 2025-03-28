@@ -76,7 +76,7 @@ Essa constante evolução da linguagem, mantém o Java como uma das mais relevan
 
 Uma classe é um modelo para criar objetos. Ela define atributos e métodos que os objetos instanciados dela poderão ter.
 
-```bash
+```java
 class Gato {
     String raca;
     int anoNascimento;
@@ -91,7 +91,7 @@ class Gato {
 
 Um objeto é uma instância de uma classe. Ele possui valores próprios para seus atributos e pode executar os métodos definidos na classe.
 
-```bash
+```java
 public class Main {
     public static void main(String[] args) {
         Gato meuGato = new Gato(); // Criando um objeto da classe Gato
@@ -106,7 +106,7 @@ public class Main {
 
 O encapsulamento é o conceito de proteger os atributos de uma classe, permitindo o acesso a eles apenas através de métodos específicos (getters e setters).
 
-```bash
+```java
 class Gato {
     String raca;
     int anoNascimento;
@@ -128,7 +128,7 @@ public class Main {
 
 A herança permite que uma classe filha herde atributos e métodos de outra classe pai, promovendo reutilização de código.
 
-```bash
+```java
 class Animal {
     String nome;
 
@@ -157,7 +157,7 @@ public class Main {
 
 O polimorfismo permite que um método tenha diferentes comportamentos, dependendo do objeto que o chama. Pode ocorrer por sobrescrita (override) ou sobrecarga (overload).
 
-```bash
+```java
 class Animal {
     void fazerSom() {
         System.out.println("O animal faz um som.");
